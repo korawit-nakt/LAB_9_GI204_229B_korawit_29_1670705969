@@ -8,7 +8,7 @@ public class AngularVelocity : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-      rb= GetComponent<Rigidbody>();  
+      rb = GetComponent<Rigidbody>();  
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class AngularVelocity : MonoBehaviour
             rb.angularVelocity = new Vector3(0, angularspeed, 0);
         }
         else
-        {
+       {
             rb.angularVelocity = Vector3.zero;
         }
     }
